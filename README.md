@@ -1,0 +1,7 @@
+# easydl_api_used_java
+这边是采用鉴权码token进行百度的easydl的api调用
+鉴权码获取的方法根据手册可以使用post请求获取
+post地址如下
+https://aip.baidubce.com/oauth/2.0/token?client_id=你的ci码&client_secret=你的cs码&grant_type=client_credentials
+client_id和client_secret可以从管理中心获取发布后可以得到
+post请求其实和浏览访问也是post请求也可以直接通过浏览器访问获取json从里面提出accessToken
